@@ -18,20 +18,28 @@
 }
 
 .initial-navbar .navbar-brand {
-  color: #c0ccda;
+  color: #1c2d41;
   font-weight: 600;
 }
 
 .initial-navbar li a {
-  color: #c0ccda;
+  color: #1c2d41;
+  font-weight: 500;
 }
 
 .initial-navbar .navbar-nav .active,
 .initial-navbar li a:hover {
-  color: #f9fafc;
+  color: #1c2d41;
   transition: all 0.3s ease-out;
-  transform: translateY(-2px);
+  border-bottom: 2px solid #0190a0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(34, 136, 168, 0.1) 0%
+  );
 }
+
 
 .navbar-collapse {
   margin-top: -5px;
@@ -97,7 +105,7 @@
 /* --- state after scroll end --- */
 
 #top-navbar-divider {
-  background: rgba(192, 204, 218, 0.8);
+  background: rgba(0,0,0,0.6);
   height: 20px;
   width: 2px;
 }

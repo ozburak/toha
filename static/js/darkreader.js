@@ -3921,7 +3921,7 @@
                 !element.disabled &&
                 (isFirefox ? !element.href.startsWith('moz-extension://') : true) &&
                 ((new URL(element.href)).hostname != 'fonts.googleapis.com'))) &&
-            !element.classList.contains('darkreader') &&
+            !element.classList.contains('darkreader') && !element.classList.contains('initial-navbar') &&
             element.media.toLowerCase() !== 'print' &&
             !element.classList.contains('stylus'));
     }

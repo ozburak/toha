@@ -9,7 +9,7 @@ const updateNavBar = () => {
     $('#navbar-toggler').addClass('navbar-light');
 
     // color theme selector a.k.a. dark mode
-    $('#navbar-theme-icon-svg').removeClass('navbar-icon-svg-dark');
+    // $('#navbar-theme-icon-svg').removeClass('navbar-icon-svg-dark');
 
     // get the main logo from hidden img tag
     let mainLogo = document.getElementById("main-logo")
@@ -26,7 +26,7 @@ const updateNavBar = () => {
     $('#navbar-toggler').addClass('navbar-dark');
 
     // color theme selector a.k.a. dark mode
-    $('#navbar-theme-icon-svg').addClass('navbar-icon-svg-dark');
+    // $('#navbar-theme-icon-svg').addClass('navbar-icon-svg-dark');
 
     // get the inverted logo from hidden img tag
     let invertedLogo = document.getElementById("inverted-logo")
