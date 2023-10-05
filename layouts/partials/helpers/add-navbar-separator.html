@@ -2,12 +2,12 @@
 
 {{/*  If "blog" feature is enabled, then add navbar separator  */}}
 {{ if site.Params.features.blog.enable }}
-    {{ $addNavbarSeparator = true }}
+    {{ $addNavbarSeparator = false }}
 {{ end }}
 
 {{/*  If "notes" feature is enabled, then add navbar separator  */}}
 {{ if site.Params.features.notes.enable }}
-    {{ $addNavbarSeparator = true }}
+    {{ $addNavbarSeparator = false }}
 {{ end }}
 
 {{/*  If site has custom menus, then add navbar separator  */}}
