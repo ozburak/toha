@@ -10,7 +10,7 @@
       {{ end }}
     {{ end }}
     <meta name="description" content="{{ $siteDescription }}" />
-    
+    <meta name="canonical" content="{{ .Permalink }}" />
     <!-- import common headers -->
     {{- partial "header.html" . -}}
     {{- partial "opengraph.html" . -}}
